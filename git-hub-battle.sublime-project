@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "/Users/jamesrichardson/weather"
 		}
 	]
 }

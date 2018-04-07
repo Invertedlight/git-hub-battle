@@ -1,8 +1,8 @@
 var axios = require('axios');
 
 
-var id = "invertedlight";
-var sec = " 86d571a5186ff89dfa7bd39c31a28c42c5cdcd3f";
+var id = "YOURUSERID";
+var sec = "SECRETKEY";
 var params = "?client_id=" + id + "&client_secret=" + sec;
 
 

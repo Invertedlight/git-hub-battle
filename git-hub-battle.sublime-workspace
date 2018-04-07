@@ -3,6 +3,70 @@
 	{
 		"selected_items":
 		[
+			[
+				"pro",
+				"propTypes"
+			],
+			[
+				"pl",
+				"playerTwoName"
+			],
+			[
+				"Player",
+				"PlayerPreview"
+			],
+			[
+				"play",
+				"playerOneImage"
+			],
+			[
+				"playerOne",
+				"playerOneImage"
+			],
+			[
+				"prop",
+				"propTypes"
+			],
+			[
+				"tr",
+				"translateX()"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"P",
+				"PropTypes"
+			],
+			[
+				"U",
+				"updateLanguage"
+			],
+			[
+				"lang",
+				"lang"
+			],
+			[
+				"list-st",
+				"list-style-type"
+			],
+			[
+				"react",
+				"react"
+			]
 		]
 	},
 	"buffers":
@@ -15,12 +79,40 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 0.0,
-		"last_filter": "",
+		"height": 119.0,
+		"last_filter": "Package Control: insta",
 		"selected_items":
 		[
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"class",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 0.0
+		"width": 428.0
 	},
 	"console":
 	{
@@ -40,17 +132,40 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/jamesrichardson/git-hub-battle"
+		"/Users/jamesrichardson/weather"
 	],
 	"file_history":
 	[
+		"/Users/jamesrichardson/git-hub-battle/app/index.css",
+		"/Users/jamesrichardson/git-hub-battle/app/components/App.js",
+		"/Users/jamesrichardson/git-hub-battle/app/utils/api.js",
+		"/Users/jamesrichardson/git-hub-battle/app/components/PlayerPreview.js",
+		"/Users/jamesrichardson/git-hub-battle/app/components/Battle.js",
 		"/Users/jamesrichardson/git-hub-battle/package.json",
+		"/Users/jamesrichardson/git-hub-battle/app/components/Results.js",
+		"/Users/jamesrichardson/git-hub-battle/app/components/Loading.js",
+		"/Users/jamesrichardson/git-hub-battle/webpack.config.js",
+		"/Users/jamesrichardson/git-hub-battle/app/components/Popular.js",
+		"/Users/jamesrichardson/git-hub-battle/dist/index.html",
+		"/Users/jamesrichardson/Library/Application Support/Sublime Text 3/Packages/User/make-div.sublime-snippet",
+		"/Users/jamesrichardson/git-hub-battle/app/components/Nav.js",
+		"/Users/jamesrichardson/git-hub-battle/app/index.js",
+		"/Users/jamesrichardson/git-hub-battle/app/components/Home.js",
+		"/Users/jamesrichardson/git-hub-battle/aoo/components/Results.js",
+		"/Users/jamesrichardson/git-hub-battle/components/Results.js",
+		"/Users/jamesrichardson/git-hub-battle/Results.js",
+		"/Users/jamesrichardson/git-hub-battle/app/components/results.js",
+		"/Users/jamesrichardson/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/jamesrichardson/Library/Application Support/Sublime Text 3/Packages/User/react-class.sublime-snippet",
+		"/Users/jamesrichardson/Library/Application Support/Sublime Text 3/Packages/User/font-family.sublime-snippet",
+		"/Users/jamesrichardson/git-hub-battle/app/index.html",
+		"/Users/jamesrichardson/git-hub-battle/dist/index_bundle.js",
 		"/Users/jamesrichardson/git-hub-battle/app.js",
 		"/Users/jamesrichardson/git-hub-battle/package-lock.json"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 30.0
 	},
 	"find_in_files":
 	{
@@ -64,6 +179,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"followers",
+			"name",
+			"winner",
+			"App",
+			"Hello"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -88,11 +208,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 30.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 43.0
 	},
 	"layout":
 	{
@@ -117,6 +237,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.YAMLMacros":
+	{
+		"height": 145.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -125,7 +249,7 @@
 	"project": "git-hub-battle.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -159,8 +283,8 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
-	"show_open_files": true,
+	"show_minimap": false,
+	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 150.0,
