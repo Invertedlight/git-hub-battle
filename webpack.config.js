@@ -6,7 +6,7 @@ var webpack = require('webpack');
 
 var config = {
 	mode: "development",
-	entry: './app/index.js',
+	entry: ['babel-polyfill', ./app/index.js'],
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		filename: 'index_bundle.js',
