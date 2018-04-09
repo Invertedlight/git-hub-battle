@@ -4,19 +4,17 @@ import { fetchPopularRepos } from '../utils/api';
 import Loading from './Loading';
 
 function SelectLanguage ({ selectedLanguage, onSelect }) {
-  var languages = ['All', 'JavaScript', 'Ruby', 'Java', 'CSS', 'Python'];
+  const languages = ['All', 'JavaScript', 'Ruby', 'Java', 'CSS', 'Python'];
   return (
     <ul className='languages'>
-      {languages.map((lang) => {
-        return (
-          <li
-            style={lang === selectedLanguage ? {color: '#d0021b'} : null}
-            onClick={onSelect(lang)}
-            key={lang}>
-              {lang}
-          </li>
-        )
-      })}
+      {languages.map((lang) => (
+        <li
+          style={lang === selectedLanguage ? {color: '#d0021b'} : null}
+          onClick={() => onSelect(lang)}
+          key={lang}>
+            {lang}
+        </li>
+      ))}
     </ul>
   )
 }
@@ -25,7 +23,7 @@ function SelectLanguage ({ selectedLanguage, onSelect }) {
 function RepoGrid ({ repos }) {
   return (
     <ul className='popular-list'>
-      {repos.map(({ name, owner, stargazers_count, html_url }, index) => ( 
+      {repos.map(({ watchers, name, stargazers_count, owner, html_url, forks }, index) => ( 
                 <li key={name} className='popular-item'>
                   <div className='popular-rank'>#{index + 1}</div>
                   <ul className='space-list-items'>
@@ -40,9 +38,10 @@ function RepoGrid ({ repos }) {
                     <li>@{owner.login}</li>
                     <li>{stargazers_count} stars</li>
                     <li>{forks} Forks</li>
+                    <li>{watchers} Watchers</li>
                   </ul>
                 </li>
-              
+    
             ))}
     </ul>
   )
